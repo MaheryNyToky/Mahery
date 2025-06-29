@@ -14,30 +14,30 @@ Un administrateur peut quant à lui gérer la liste des compétences disponibles
 
 ## Fonctionnalités implémentées
 ### 1. Authentification & gestion des comptes
-- 💾 Inscription avec validation serveur des champs  
-- 🔒 Connexion sécurisée (sessions PHP) et option « Se souvenir de moi »  
-- 👤 Gestion des rôles (admin / utilisateur)  
-- ✏️ Mise à jour des informations personnelles  
-- 🔄 Réinitialisation du mot de passe par lien sécurisé  
-- 🚪 Déconnexion et destruction sécurisée de la session  
+- Inscription avec validation serveur des champs  
+- Connexion sécurisée (sessions PHP) et option « Se souvenir de moi »  
+- Gestion des rôles (admin / utilisateur)  
+- Mise à jour des informations personnelles  
+- Réinitialisation du mot de passe par lien sécurisé  
+- Déconnexion et destruction sécurisée de la session  
 
 ### 2. Gestion des compétences
-- ➕➖➗ CRUD des compétences (Admin)  
-- ✅ Sélection des compétences par l’utilisateur  
-- 📊 Niveau de compétence sur une échelle 1 (débutant) → 5 (expert)  
+- CRUD des compétences (Admin)  
+- Sélection des compétences par l’utilisateur  
+- Niveau de compétence sur une échelle 1 (débutant) → 5 (expert)  
 
 ### 3. Gestion des projets
-- ➕➖🚮 Création, modification et suppression de projets  
-- 📋 Chaque projet contient un titre, une description, une image et un lien externe  
-- 📤 Upload d’images sécurisé (format & taille)  
-- 🎨 Affichage structuré en grille responsive  
+- Création, modification et suppression de projets  
+- Chaque projet contient un titre, une description, une image et un lien externe  
+- Upload d’images sécurisé (format & taille)  
+- Affichage structuré en grille responsive  
 
 ### 4. Sécurité
-- 🛡️ Protection contre les injections SQL (PDO + requêtes préparées)  
-- 🛑 Protection contre le XSS et la conservation des données saisies  
-- 🔑 Hachage des mots de passe avec `password_hash()`  
-- ⏲️ Expiration automatique des sessions après inactivité  
-- 🚫 Sécurisation des accès (interdiction de l’interface admin aux non-admins)  
+- Protection contre les injections SQL (PDO + requêtes préparées)  
+- Protection contre le XSS et la conservation des données saisies  
+- Hachage des mots de passe avec `password_hash()`  
+- Expiration automatique des sessions après inactivité  
+- Sécurisation des accès (interdiction de l’interface admin aux non-admins)  
 
 ## Installation et utilisation
 
